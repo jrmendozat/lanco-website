@@ -1,0 +1,364 @@
+body
+{
+    /*background:white;
+    /*font-family: 'Poiret One', cursive; */
+    background: rgb(255, 255, 255)
+}
+
+
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+
+
+h1
+{
+    color:orange;
+}
+
+h2
+{
+  color: rgb(30, 15, 236);
+}
+
+h3,h4,h5,h6
+{
+    color:#444;
+    /*font-family: 'Lobster', cursive;*/
+}
+
+h2
+{
+  color:#158cba;
+}
+
+.icon-footer
+{
+    color:  orange;
+	font-size: 25px;
+    margin: 10px;
+}
+
+/* Footer -------*/
+footer
+{
+	background: #c7c4c4;
+	text-align: center;
+}
+
+footer p
+{
+	text-align: justify;
+}
+
+.page
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    min-height:500px;
+    padding:1em;
+}
+
+.page-2
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    min-height:200px;
+    padding:1em;
+}
+
+
+.page-small
+{
+    background:#fff;
+    border-radius:1em;
+    margin-top:1em;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-bottom: 1em;
+    min-height:300px;
+    padding:1em;
+}
+
+
+.pageorder
+{
+	background: #fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+
+
+.page-short
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    min-height:500px;
+    margin-bottom: 1em;
+    padding:1em;
+}
+
+.page-medium
+{
+    background:#fff;
+    border-radius:1em;
+    margin-top:1em;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 1em;
+    min-height:500px;
+    padding:1em;
+}
+
+.page-datatable-01
+{
+    background:#fff;
+    border-radius:2em;
+    margin-top:2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    min-height:500px;
+    padding:1em;
+   
+    
+}
+
+.page-width
+{
+    background: #fff;
+    border-radius: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+
+
+.page-large
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    min-height:810px;
+    margin-bottom: 1em;
+    padding:1em;
+}
+
+.page-inputform
+{
+    background:rgb(238, 233, 233);
+    border-radius:1em;
+    padding:1em;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 1em;
+    margin-top:10px;
+    border: double;
+    
+}
+
+.page-inputform-2
+{
+    background:rgb(238, 233, 233);
+    border-radius:1em;
+    padding:1em;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1em;
+   
+}
+
+
+
+.icon-home
+{
+    color: #666;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.icon-dash
+{
+    font-size: 40px;
+    margin: 5px;
+}
+
+.icon-ml
+{
+    margin-right: 10px;
+}
+
+.icon-nav-home1
+{
+    color: #666;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.btn-home-admin
+{
+    font-size:20px;
+    
+    
+}
+
+.btn-home-admin-cat
+{
+    font-size:20px;
+    width: 40px;
+}
+
+#Textodashboard
+{
+   color: #ff851b;
+   font-size:15px;
+   font-weight : bold;
+  
+  
+}
+  
+.table-cart
+{
+	background: #fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+.table-cart img
+{
+	width: 50px;
+}
+
+.panel 
+{
+  background: rgb(212, 208, 208);
+}
+
+.panel-mobile
+{
+  background: rgb(212, 208, 208);
+}
+
+.modal-title-buy
+{
+	color:powderblue;
+}
+
+
+.modal-xlg
+{
+  min-width:1200px;
+}
+
+.modal-body-buy
+{
+	font-style: oblique;
+	font-size: 15px;
+	line-height: 25pt;
+	padding: 10px;
+}
+
+.icon-modal-status
+{
+    color:  #517B97;
+	font-size: 25px;
+    margin: 10px;
+}
+
+.modal-body-detail
+{
+	min-width:800px;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.modal-content-detail
+{
+	background:#fff;
+	min-width:800px;
+	padding: 5px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%
+	
+}
+
+div.response {
+	padding: 1px;
+	
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
+
+@media screen and (min-width: 601px) {
+	 div.response {
+		 font-size: 15px;
+		 
+	 }
+}
+ 
+@media screen and (max-width: 600px) {
+	 
+    h1 {
+        font-size: 21px;
+    }
+	h2 {
+        font-size: 19px;
+    }
+	 h3 {
+			 font-size: 17px;
+	 }
+	 h4 {
+			 font-size: 15px;
+	 }
+	 h5 {
+			 font-size: 12px;
+	 }
+	 h6 {
+			 font-size: 10px;
+	 }
+	 th {
+		 font-size: 10px;
+	 }
+	 td {
+		 font-size: 10px
+	 }
+	 div.response {
+		 font-size: 13px;
+		 text-align: center;
+		 
+	 }  
+
+	 .iconresponse {
+		font-size : 10px;
+	 }
+	 
+
+	 
+}
+
+@media screen and (max-width: 600px) {
+	 div.novisiblemobile {
+			 display: none;
+			 
+	 }
+}

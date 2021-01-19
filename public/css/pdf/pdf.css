@@ -1,0 +1,89 @@
+body
+{
+    background: #D4DDE3;
+    
+	/* font-family: 'Poiret One', cursive; */
+}
+
+.Page-title
+{
+   background:#158cba; 
+   text-align: center;
+   color:#fff;
+   border-radius:1em;
+   margin:1em;
+   padding:1em;
+}
+
+.page
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    padding:1em;
+    font-size: 10px;
+	
+}
+
+.page-body
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    padding:1em;
+    font-size: 7px;
+	
+}
+
+.page-footer
+{
+    background:#158cba; 
+    border-radius:1em;
+    margin:1em;
+    padding:1em;
+    font-size: 9px;
+	
+}
+
+
+.page-short
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    min-height:600px;
+    margin-bottom: 1em;
+    padding:1em;
+}
+
+.page-medium
+{
+    background:#fff;
+    border-radius:1em;
+    margin-top:1em;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 1em;
+    min-height:500px;
+    padding:1em;
+}
+
+.page-large
+{
+    background:#fff;
+    border-radius:1em;
+    margin:1em;
+    min-height:800px;
+    margin-bottom: 1em;
+    padding:1em;
+}
+
+.page-width
+{
+    background: #fff;
+    border-radius: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-bottom: 30px;
+	padding: 1em;
+}

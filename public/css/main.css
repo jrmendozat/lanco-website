@@ -1,0 +1,390 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255,255,255);
+    width: 100%;
+    height:100%;
+    transition: background-color .5s;
+    
+}
+
+/* Footer -------*/
+footer
+{
+  background:rgb(63, 62, 62);
+  padding: 1em;       
+}
+
+[id |= 'bg-show-wrap']{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 5px solid #fff;
+  
+}
+
+
+
+.container-home
+{
+    background-color: rgb(255,255,255);
+      
+}
+
+.page-lg {
+  width: 100%;
+ 
+}
+
+.container-home2
+{
+    background-color: rgb(255,255,255);
+    height: 70%;
+    padding: 1em;  
+    
+}
+
+hr.styledl {
+	border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  margin-left: 10%;
+}
+
+hr.styledl:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.card-header
+{
+  background:rgb(228,0,43);
+  height: 45px;
+	padding: 5px;
+	
+}
+
+.page-contactus
+{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.show-products {
+  background: rgb(255,255,255);
+  width: 90%;
+  margin-left: 5%;
+  height: 1500px;
+  
+}
+
+.show-productsmobile {
+  background: rgb(255,255,255);
+  width: 90%;
+  margin-left: 5%;
+  height: 1500px;
+  
+}
+
+.show-products-detail {
+  background: rgb(255,255,255);
+  width: 90%;
+  margin-left: 5%;
+  height: 100%;
+}
+
+.show-products-detailmob {
+  background: rgb(255,255,255);
+  width: 90%;
+  margin-left: 5%;
+  height: 1000px;
+}
+
+.panel-info1 {
+  height: 90%;
+  border-left: 1px solid #009a44;
+ 
+}
+
+.panel-info2 {
+  height: 90%;
+  border-left: 1px solid #ffcd00 ;;
+ 
+}
+
+.panel-info3 {
+  height: 90%;
+  border-left: 1px solid #e4002b;
+ 
+}
+
+/* Catalogo tipo Pinterest SM Size Medium-------------*/
+#products-sm{
+  background: rgb(255,255,255);
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	}
+	
+	
+	.white-panel-sm {
+	position: absolute;
+	background: white;
+	padding: 10px;
+  
+	}
+	
+		
+	.white-panel-sm h3 {
+		font-size: 12pt;
+	}
+	
+	.white-panel-sm h4 {
+		font-size: 9pt;
+	}
+	
+	.white-panel-sm h5 {
+		font-size: 8pt;
+	}
+
+	.white-panel-sm h6 {
+		font-size: 8pt;
+	}
+	
+	
+	
+	.white-panel-sm h1 a {
+	color: #A92733;
+	}
+	
+	.white-panel-sm:hover {
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	margin-top: -5px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+
+  
+  /* Catalogo tipo Pinterest SL Size Large for Mobile-------------*/
+  #products-sl{
+    background: rgb(255,255,255);
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+	}
+	
+	.white-panel-sl {
+    position: absolute;
+    background: white;
+    padding: 10px;
+  }
+			
+	.white-panel-sl h3 {
+		font-size: 12pt;
+	}
+	
+	.white-panel-sl h4 {
+		font-size: 9pt;
+	}
+	
+	.white-panel-sl h5 {
+		font-size: 8pt;
+	}
+
+	.white-panel-sl h6 {
+		font-size: 8pt;
+	}
+		
+	.white-panel-sl h1 a {
+	  color: #A92733;
+	}
+	
+	.white-panel-sl:hover {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+	}
+
+
+/* Style Menu Vertical Acordion */
+
+a { text-decoration: none; }
+
+.btnMenu {
+	display: none;
+	padding: 5px;
+	display: block;
+	background: #009a44;
+	color: #fff;
+}
+
+.btnMenu i.fa { float: right; }
+
+.accordion-menu {
+	width: 100%;
+	display: inline-block;
+  line-height: 18px;
+  background:  rgb(255,255,255);
+  
+}
+
+.accordion-menu .menu { width: 100%; }
+
+.accordion-menu ul { list-style: none; }
+
+.accordion-menu .menu li a {
+	color: rgb(0,0,0);
+	display: block;
+	padding: 15px 5px;
+	background: rgb(255,255,255);
+}
+.accordion-menu .menu li a:hover { background: rgb(160, 156, 156); color: #fff; }
+.accordion-menu .menu i.fa {
+	font-size: 10px;
+	line-height: 16px;
+	float: right;
+	
+}
+
+.accordion-menu .menu ul { display: none; }
+.accordion-menu .menu ul li a {
+	background:rgb(214, 210, 210);
+	color: rgb(0,0,0);
+}
+
+.accordion-menu .menu .active > a {
+	background: rgb(160, 156, 156);
+	color: #fff;
+}
+
+
+.blockinline {
+	margin: 0;
+	padding: 0;
+}
+
+.blockinline li {
+	display: inline-block;
+}
+
+.blockbotones {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.blockfooterbanner {
+  width: 100%;
+}
+
+.bloquecintillo {
+  width: 100%;
+}
+
+.bloquecorporativo {
+  width: 70%;
+  margin-left:15%;
+}
+
+.titulocorporativo {
+  width: 100%;
+  text-align: left;
+  padding-left: 5px;
+  background: #ffcd00;
+  color:rgb(10, 10, 66);
+}
+
+.text-corporativo  {
+  text-align: justify;
+  
+}
+
+.block90 {
+  width: 90%;
+  margin-left: 5%;
+  
+}
+
+.block80 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+/* Style Page Response */
+
+div.response {
+    padding: 10px;
+    
+ }
+ 
+ @media screen and (max-height: 450px) {
+   .sidenav {padding-top: 15px;}
+   .sidenav a {font-size: 18px;}
+ }
+ 
+ @media screen and (min-width: 601px) {
+     div.response {
+       font-size: 20px;
+       
+     }
+ }
+   
+ @media screen and (max-width: 600px) {
+   
+     h1 {
+        font-size: 17px;
+     }
+     h2 {
+        font-size: 17px;
+     }
+     h3 {
+         font-size: 17px;
+     }
+     h4 {
+         font-size: 15px;
+     }
+     h5 {
+         font-size: 13px;
+     }
+     h6 {
+         font-size: 11px;
+     }
+     th {
+       font-size: 10px;
+     }
+     td {
+       font-size: 10px
+     }
+     div.response {
+       font-size: 13px;
+       text-align: center;
+       
+     }  
+     
+ }
+ 
+ @media screen and (max-width: 600px) {
+     div.novisiblemobile {
+         display: none;
+         
+     }
+ }
+ 
+
+
